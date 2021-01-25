@@ -15,6 +15,7 @@
 		C60367D825BF689700FD5435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60367D625BF689700FD5435 /* LaunchScreen.storyboard */; };
 		C60367E325BF689700FD5435 /* TikTokCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60367E225BF689700FD5435 /* TikTokCloneTests.swift */; };
 		C60367EE25BF689700FD5435 /* TikTokCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60367ED25BF689700FD5435 /* TikTokCloneUITests.swift */; };
+		C60367FF25BF74AA00FD5435 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60367FE25BF74AA00FD5435 /* VideoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C60367E925BF689700FD5435 /* TikTokCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60367ED25BF689700FD5435 /* TikTokCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokCloneUITests.swift; sourceTree = "<group>"; };
 		C60367EF25BF689700FD5435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60367FE25BF74AA00FD5435 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C60367D425BF689700FD5435 /* Assets.xcassets */,
 				C60367D625BF689700FD5435 /* LaunchScreen.storyboard */,
 				C60367D925BF689700FD5435 /* Info.plist */,
+				C60367FE25BF74AA00FD5435 /* VideoCollectionViewCell.swift */,
 			);
 			path = TikTokClone;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				C60367D025BF689600FD5435 /* ViewController.swift in Sources */,
 				C60367CC25BF689600FD5435 /* AppDelegate.swift in Sources */,
+				C60367FF25BF74AA00FD5435 /* VideoCollectionViewCell.swift in Sources */,
 				C60367CE25BF689600FD5435 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
