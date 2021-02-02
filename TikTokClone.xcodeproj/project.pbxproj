@@ -16,6 +16,7 @@
 		C60367E325BF689700FD5435 /* TikTokCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60367E225BF689700FD5435 /* TikTokCloneTests.swift */; };
 		C60367EE25BF689700FD5435 /* TikTokCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60367ED25BF689700FD5435 /* TikTokCloneUITests.swift */; };
 		C60367FF25BF74AA00FD5435 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60367FE25BF74AA00FD5435 /* VideoCollectionViewCell.swift */; };
+		C6CEBE0725C8F65A007F3F3A /* sampleVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C6CEBE0625C8F65A007F3F3A /* sampleVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C60367ED25BF689700FD5435 /* TikTokCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokCloneUITests.swift; sourceTree = "<group>"; };
 		C60367EF25BF689700FD5435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C60367FE25BF74AA00FD5435 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6CEBE0625C8F65A007F3F3A /* sampleVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampleVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		C60367CA25BF689600FD5435 /* TikTokClone */ = {
 			isa = PBXGroup;
 			children = (
+				C6CEBE0625C8F65A007F3F3A /* sampleVideo.mp4 */,
 				C60367CB25BF689600FD5435 /* AppDelegate.swift */,
 				C60367CD25BF689600FD5435 /* SceneDelegate.swift */,
 				C60367CF25BF689600FD5435 /* ViewController.swift */,
@@ -237,6 +240,7 @@
 				C60367D825BF689700FD5435 /* LaunchScreen.storyboard in Resources */,
 				C60367D525BF689700FD5435 /* Assets.xcassets in Resources */,
 				C60367D325BF689600FD5435 /* Main.storyboard in Resources */,
+				C6CEBE0725C8F65A007F3F3A /* sampleVideo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

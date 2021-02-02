@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         for _ in 0..<10 {
-            let model = VideoModel(caption: "This is a cool car", username: "NicoS", audioTrackName: "AudioTrack", videoFileName: "video", videoFileFormat: "mmp4")
+            let model = VideoModel(caption: "This is a cool car", username: "NicoS", audioTrackName: "AudioTrack", videoFileName: "sampleVideo", videoFileFormat: "mp4")
             data.append(model)
         }
         
