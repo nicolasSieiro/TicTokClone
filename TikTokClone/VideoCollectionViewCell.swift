@@ -95,6 +95,10 @@ class VideoCollectionViewCell: UICollectionViewCell {
         commentButton.frame = CGRect(x: width-size, y: heigth-(size*2)-10, width: size, height: size)
         likeButton.frame = CGRect(x: width-size, y: heigth-(size*3)-10, width: size, height: size)
         profileButton.frame = CGRect(x: width-size, y: heigth-(size*4)-10, width: size, height: size)
+        
+        audioLabel.frame = CGRect(x: 5, y: heigth-40, width: width-size-10, height: 50)
+        captionLabel.frame = CGRect(x: 5, y: heigth-80, width: width-size-10, height: 50)
+        usernameLabel.frame = CGRect(x: 5, y: heigth-120, width: width-size-10, height: 50)
     }
     
     override func prepareForReuse() {
